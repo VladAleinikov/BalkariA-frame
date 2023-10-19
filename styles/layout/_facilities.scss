@@ -51,3 +51,56 @@
             }
       }
 }
+.facilities-container {
+      margin-top: 60px;
+      @include flex($just: space-between);
+      flex-wrap: wrap;
+
+      h2 {
+            width: 350px;
+            margin: 0 calc(50% - 175px);
+            margin-bottom: 60px;
+            text-align: center;
+            font-size: 1.3em;
+            font-weight: 300;
+            text-transform: uppercase;
+      }
+      .facilities__list {
+            @include flex(column, start, start, 25px);
+            width: 35%;
+
+            .facilities__item {
+                  width: 100%;
+                  @include flex(row, start, start, 20px);
+
+                  .item__icon {
+                        @include flex();
+                        min-width: 40px;
+                        height: 40px;
+                        border-radius: 100%;
+                        background: #605d5c;
+
+                        img {
+                              width: unset;
+                              height: unset;
+                        }
+                  }
+                  p {
+                        width: 100%;
+                        font-size: 1em;
+                        padding-top: 4px;
+                        padding-bottom: 20px;
+                        border-bottom: 1px solid rgba($color: #605d5c, $alpha: 0.3);
+                  }
+            }
+      }
+      .facilities__images {
+            width: 60%;
+            height: 940px;
+            @include flex(column, $gap: 40px);
+
+            .facilities__image{
+                  height: calc((100% - 80px)/ 3);
+            }
+      }
+}

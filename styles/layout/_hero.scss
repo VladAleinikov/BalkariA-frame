@@ -10,7 +10,13 @@
       padding-top: 100px;
 
       .hero__title {
-            max-width: 600px;
-            font-size: 1.65em;
+  max-width: 670px;
+  font-size: 1.75em;
+     color: #fff;
+    text-shadow:
+    0px 0px 2px #303030,
+    0 0 1em #303030,
+    0 0 0.2em #303030;
+	font-weight: 200;
       }
 }

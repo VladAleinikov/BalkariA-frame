@@ -37,11 +37,11 @@ a {
 }
 
 .btn {
-  padding: 20px;
+  padding: 20px 30px;
   border-radius: 20px;
   background: #fff;
   color: #605d5c;
-  font-size: 1.65em;
+  font-size: 1.25em;
   transition: 0.5s;
 }
 .btn:hover {
@@ -104,8 +104,14 @@ a {
   padding-top: 100px;
 }
 .hero-container .hero__title {
-  max-width: 600px;
-  font-size: 1.65em;
+  max-width: 670px;
+  font-size: 1.75em;
+     color: #fff;
+    text-shadow:
+    0px 0px 2px #303030,
+    0 0 1em #303030,
+    0 0 0.2em #303030;
+	font-weight: 200;
 }
 
 .gallery {
@@ -143,73 +149,4 @@ a {
 .gallery-container .galley__list .gallery__item a {
   width: 100%;
   height: 100%;
-}
-
-.facilities-container {
-  margin-top: 60px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  gap: unset;
-  flex-wrap: wrap;
-}
-.facilities-container h2 {
-  width: 350px;
-  margin: 0 calc(50% - 175px);
-  margin-bottom: 60px;
-  text-align: center;
-  font-size: 1.3em;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-.facilities-container .facilities__list {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
-  gap: 25px;
-  width: 35%;
-}
-.facilities-container .facilities__list .facilities__item {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  align-items: start;
-  gap: 20px;
-}
-.facilities-container .facilities__list .facilities__item .item__icon {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: unset;
-  min-width: 40px;
-  height: 40px;
-  border-radius: 100%;
-  background: #605d5c;
-}
-.facilities-container .facilities__list .facilities__item .item__icon img {
-  width: unset;
-  height: unset;
-}
-.facilities-container .facilities__list .facilities__item p {
-  width: 100%;
-  font-size: 1em;
-  padding-top: 4px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid rgba(96, 93, 92, 0.3);
-}
-.facilities-container .facilities__images {
-  width: 60%;
-  height: 940px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-}
-.facilities-container .facilities__images .facilities__image {
-  height: calc((100% - 80px) / 3);
 }/*# sourceMappingURL=main.css.map */
