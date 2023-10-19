@@ -1,0 +1,30 @@
+.about-container {
+      margin-top: 60px;
+      margin-bottom: 60px;
+      @include flex(column);
+
+      h2 {
+            margin-bottom: 40px;
+            text-align: center;
+            font-size: 1.3em;
+            font-weight: 300;
+            text-transform: uppercase;
+      }
+      .about__bottom,
+      .about__top {
+            width: 100%;
+            @include flex($just: space-between);
+
+            img {
+                  width: 440px;
+                  height: 440px;
+            }
+            p {
+                  max-width: 575px;
+                  font-size: 1em;
+                  font-weight: 300;
+                  line-height: 30px; /* 176.471% */
+                  text-transform: uppercase;
+            }
+      }
+}

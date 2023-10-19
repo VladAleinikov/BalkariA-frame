@@ -311,6 +311,7 @@ a {
 .facilities-container .facilities__list .facilities__item p {
   width: 100%;
   font-size: 1.2em;
+  font-weight: 300;
   padding-top: 4px;
   padding-bottom: 20px;
   border-bottom: 1px solid rgba(96, 93, 92, 0.3);
@@ -340,5 +341,67 @@ a {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.about-container {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: unset;
+}
+
+.about-container h2 {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.about-container .about__bottom,
+.about-container .about__top {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: unset;
+}
+
+.about-container .about__bottom img,
+.about-container .about__top img {
+  width: 440px;
+  height: 440px;
+}
+
+.about-container .about__bottom p,
+.about-container .about__top p {
+  max-width: 575px;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 30px;
+  /* 176.471% */
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=main.css.map */
