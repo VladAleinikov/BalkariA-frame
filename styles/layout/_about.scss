@@ -13,14 +13,14 @@
       .about__bottom,
       .about__top {
             width: 100%;
-            @include flex($just: space-between);
+            margin-bottom: 40px;
+            @include flex(row, space-between, start, 40px);
 
             img {
-                  width: 440px;
-                  height: 440px;
+                  width: 350px;
+                  height: 350px;
             }
             p {
-                  max-width: 575px;
                   font-size: 1em;
                   font-weight: 300;
                   line-height: 30px; /* 176.471% */

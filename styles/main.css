@@ -373,6 +373,7 @@ a {
 .about-container .about__bottom,
 .about-container .about__top {
   width: 100%;
+  margin-bottom: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -383,21 +384,20 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: unset;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  gap: 40px;
 }
 
 .about-container .about__bottom img,
 .about-container .about__top img {
-  width: 440px;
-  height: 440px;
+  width: 350px;
+  height: 350px;
 }
 
 .about-container .about__bottom p,
 .about-container .about__top p {
-  max-width: 575px;
   font-size: 1em;
   font-weight: 300;
   line-height: 30px;
