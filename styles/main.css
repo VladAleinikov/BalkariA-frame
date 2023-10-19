@@ -37,11 +37,11 @@ a {
 }
 
 .btn {
-  padding: 11px 22px 11px 23px;
+  padding: 20px;
   border-radius: 20px;
   background: #fff;
   color: #605d5c;
-  font-size: 0.85em;
+  font-size: 1.65em;
   transition: 0.5s;
 }
 .btn:hover {
@@ -57,7 +57,6 @@ a {
   gap: unset;
   padding-top: 20px;
   padding-bottom: 25px;
-  height: 140px;
 }
 .header-container .header__logo {
   width: 50px;
@@ -106,5 +105,5 @@ a {
 }
 .hero-container .hero__title {
   max-width: 600px;
-  font-size: 2em;
+  font-size: 1.65em;
 }/*# sourceMappingURL=main.css.map */
