@@ -1,15 +1,15 @@
-.hero{
+.hero {
       background-image: url("../assets/hero-bg.jpg");
-      background-size: cover;
+      background-size: 100%;
       background-repeat: no-repeat;
-      height: 820px;
+      height: 906px;
 }
-.hero-container{
+.hero-container {
       height: 100%;
       @include flex(column, start, start, 30px);
       padding-top: 100px;
 
-      .hero__title{
+      .hero__title {
             max-width: 600px;
             font-size: 1.65em;
       }
