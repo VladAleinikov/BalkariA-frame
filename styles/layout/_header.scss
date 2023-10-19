@@ -1,11 +1,19 @@
 .header-container{
-      @include flex(row, start, start, 215px);
+      @include flex(row, space-between, start);
       padding-top: 50px;
       padding-bottom: 25px;
       height: 140px;
 
+      .header__logo{
+            width: 65px;
+            height: 65px;
+      }
       .header__nav{
             @include flex($gap: 73px);
             height: 100%;
+
+            .nav__link{
+                  font-size: 1em;
+            }
       }
 }
