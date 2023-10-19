@@ -1,0 +1,11 @@
+.header-container{
+      @include flex(row, start, start, 215px);
+      padding-top: 50px;
+      padding-bottom: 25px;
+      height: 140px;
+
+      .header__nav{
+            @include flex($gap: 73px);
+            height: 100%;
+      }
+}

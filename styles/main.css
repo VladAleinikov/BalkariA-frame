@@ -31,4 +31,24 @@ a {
 .container {
   max-width: 1366px;
   padding: 0 98px;
+  margin: auto;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  gap: 215px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  height: 140px;
+}
+.header-container .header__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 73px;
+  height: 100%;
 }/*# sourceMappingURL=main.css.map */
