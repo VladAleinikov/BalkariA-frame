@@ -1,0 +1,8 @@
+.footer{
+      border-top: 1px solid #b7bac1;
+}
+.footer-container {
+      width: 100%;
+      @include flex($just: space-around);
+      height: 150px;
+}

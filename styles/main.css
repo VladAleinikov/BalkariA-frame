@@ -404,4 +404,26 @@ a {
   /* 176.471% */
   text-transform: uppercase;
 }
+
+.footer {
+  border-top: 1px solid #b7bac1;
+}
+
+.footer-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: unset;
+  height: 150px;
+}
 /*# sourceMappingURL=main.css.map */
