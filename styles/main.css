@@ -35,6 +35,19 @@ a {
   margin: auto;
 }
 
+.btn {
+  padding: 11px 22px 11px 23px;
+  border-radius: 20px;
+  background: #fff;
+  color: #605d5c;
+  font-size: 0.85em;
+  transition: 0.5s;
+}
+.btn:hover {
+  background: #4d4d4d;
+  color: #fff;
+}
+
 .header-container {
   display: flex;
   flex-direction: row;
@@ -65,10 +78,32 @@ a {
   gap: unset;
   padding: 20px 20px;
   font-size: 1em;
+  border-radius: 4px;
   background: transparent;
   transition: 0.5s;
 }
 .header-container .header__nav .nav__link:hover {
   background: #4d4d4d;
   color: #fff;
+}
+
+.hero {
+  background-image: url("../assets/hero-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 820px;
+}
+
+.hero-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 30px;
+  padding-top: 100px;
+}
+.hero-container .hero__title {
+  max-width: 600px;
+  font-size: 2em;
 }/*# sourceMappingURL=main.css.map */

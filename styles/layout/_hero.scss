@@ -1,0 +1,16 @@
+.hero{
+      background-image: url("../assets/hero-bg.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 820px;
+}
+.hero-container{
+      height: 100%;
+      @include flex(column, start, start, 30px);
+      padding-top: 100px;
+
+      .hero__title{
+            max-width: 600px;
+            font-size: 2em;
+      }
+}
