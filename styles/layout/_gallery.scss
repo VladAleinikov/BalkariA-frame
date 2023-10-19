@@ -1,0 +1,30 @@
+.gallery{
+      background: linear-gradient(160deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 48%, rgba(183,186,193,1) 48%, rgba(183,186,193,1) 100%);
+}
+.gallery-container {
+      position: relative;
+      @include flex(column, $gap: 40px);
+      padding-top: 40px;
+      padding-bottom: 40px;
+      overflow: hidden;
+
+      h2 {
+            font-size: 1.3em;
+            font-weight: 300;
+            text-transform: uppercase;
+      }
+      .galley__list {
+            @include flex($gap: 40px);
+            flex-wrap: wrap;
+
+            .gallery__item {
+                  width: 260px;
+                  height: 260px;
+
+                  a {
+                        width: 100%;
+                        height: 100%;
+                  }
+            }
+      }
+}
